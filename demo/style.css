@@ -1,134 +1,150 @@
-*{
-    margin:0;
-    padding:0;
-    
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     background-color: #f3f5f7;
 }
-.w{
+
+.w {
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.header{
+
+.header {
     height: 101px;
     background-color: #f3f5f7;
 }
-.logo{
+
+.logo {
     width: 229px;
-    background-color:#f3f5f7;
+    background-color: #f3f5f7;
     height: 100%;
-    float:left;
+    float: left;
 }
-.logo img{
+
+.logo img {
     margin-top: 30px;
 }
-.nav{
+
+.nav {
     width: 283px;
     height: 100%;
-    float:left;
+    float: left;
 }
-.nav li{
+
+.nav li {
     list-style: none;
     float: left;
-    
-    
 }
-.nav a{
+
+.nav a {
     display: block;
     text-decoration: none;
-    margin-top:43px;
+    margin-top: 43px;
     margin-right: 23px;
     font-size: 18px;
     color: #050505;
-    padding:0 10px;
+    padding: 0 10px;
     padding-bottom: 11px;
-    
 }
-.nav a:hover{
+
+.nav a:hover {
     border-bottom: 2px solid #00a4ff;
 }
-.search{
+
+.search {
     width: 507px;
     height: 100%;
     float: left;
 }
-.personal{
+
+.personal {
     width: 181px;
     height: 100%;
     float: left;
     line-height: 101px;
     color: #797979;
 }
-.personal img{
+
+.personal img {
     margin-left: 30px;
 }
-.search input{
+
+.search input {
     float: right;
     width: 345px;
     height: 38px;
-    border:1px solid #00a4ff;
+    border: 1px solid #00a4ff;
     margin-top: 30px;
     padding-left: 15px;
     font-size: 14px;
 }
-.search button{
+
+.search button {
     float: right;
     width: 50px;
     height: 40px;
     margin-top: 30px;
-    border:1px solid #00a4ff;
+    border: 1px solid #00a4ff;
     background-color: #00a4ff;
     background-image: url(images/2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.banner{
+
+.banner {
     height: 420px;
     background-color: #1c026c;
 }
-.banner .w{
+
+.banner .w {
     background-image: url(images/4.png);
-    background-repeat:round;
+    background-repeat: round;
     background-position: top center;
     background-color: inherit;
     height: 100%;
 }
-.banner .subnav{
+
+.banner .subnav {
     width: 190px;
     height: 100%;
     background-color: rgba(7.8, 0.8, 29.4, 0.5);
     float: left;
-
 }
-.subnav li{
+
+.subnav li {
     list-style: none;
     height: 45px;
     line-height: 45px;
-    padding:0 20px;
+    padding: 0 20px;
 }
-.subnav a{
+
+.subnav a {
     font-size: 14px;
     color: white;
     text-decoration: none;
     display: block;
-
-
 }
-.subnav a:hover{
+
+.subnav a:hover {
     color: #00b4ff;
 }
-.subnav span{
+
+.subnav span {
     float: right;
 }
-.course{
+
+.course {
     margin-top: 50px;
     width: 230px;
     height: 300px;
     background-color: white;
     float: right;
 }
-.h{
+
+.h {
     text-align: center;
     height: 50px;
     line-height: 50px;
@@ -137,28 +153,33 @@ body{
     background-color: #9bceea;
     color: white;
 }
-.course_body{
+
+.course_body {
     padding-top: 8px;
 }
-.course_body li{
+
+.course_body li {
     list-style: none;
     width: 192px;
     height: 48px;
     border-bottom: 1px solid #f6f6f6;
     padding-top: 14px;
-    margin:0 18px;
+    margin: 0 18px;
 }
-.course_body h4{
+
+.course_body h4 {
     font-size: 16px;
     font-weight: normal;
 }
-.course_body p{
+
+.course_body p {
     font-size: 12px;
-    color:#bdbdbd;
+    color: #bdbdbd;
 }
-.course_body a{
+
+.course_body a {
     display: block;
-    margin:0 14px;
+    margin: 0 14px;
     border: 1px solid #3fbbff;
     width: 200px;
     height: 40px;
@@ -168,4 +189,180 @@ body{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+}
+
+.intrest {
+    height: 60px;
+    margin-top: 8px;
+    line-height: 60px;
+    background-color: #fff;
+}
+
+.intrest h3 {
+    color: #00a4ff;
+    font-size: 16px;
+    margin: 0 34px;
+}
+
+.intrest li {
+    list-style: none;
+}
+
+.intrest li a {
+    font-size: 16px;
+    border-left: 1px solid #bfbfbf;
+    height: 16px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.intrest h3,
+.intrest ul,
+.intrest li {
+    float: left;
+}
+
+.intrest>a {
+    float: right;
+    color: #00a4ff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 26px;
+}
+
+.box {
+    /* height: 597px; */
+    margin-top: 25px;
+}
+
+.box-hd {
+    height: 50px;
+    line-height: 50px;
+}
+
+.box-hd>h4 {
+    font-size: 19px;
+    color: #494949;
+    float: left;
+}
+
+.box-hd>a {
+    float: right;
+    font-size: 11px;
+    color: #a5a5a5;
+    text-decoration: none;
+}
+
+.box-bd {
+    /* height: 556px; */
+}
+
+.box-bd li {
+    list-style: none;
+    height: 270px;
+    width: 235px;
+    float: left;
+    background-color: white;
+    margin-right: 5px;
+    margin-bottom: 14px;
+}
+
+.box-bd li img {
+    width: 100%;
+}
+
+.box-bd li a {
+    text-decoration: none;
+}
+
+.box-bd li h4 {
+    margin: 20px 20px;
+    font-size: 11px;
+    font-weight: normal;
+    color: black;
+}
+
+.box-bd li p {
+    margin: 0 20px;
+    font-size: 11px;
+    color: gray;
+}
+
+.orange {
+    color: #ff7c2d;
+}
+
+.footer {
+    background-color: white;
+    height: 415px;
+    margin-top: 40px;
+    padding-top: 33px;
+}
+
+.footl {
+    float: left;
+    margin-left: 20px;
+}
+
+.footr {
+    float: right;
+}
+
+.footl img {
+    margin-bottom: 25px;
+}
+
+.footl p {
+    font-size: 12px;
+    color: gray;
+}
+
+.footl a {
+    display: block;
+    margin-top: 15px;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #00a4ff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+    font-size: 15px;
+    color: #00a4ff;
+}
+
+.footr {
+    margin-right: 35px;
+    float: right;
+}
+
+.footr dl {
+    float: left;
+    margin-left: 121px;
+}
+
+.footr dt {
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+}
+
+.footr dd {
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
