@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: #f3f5f7;
+}
+.w{
+    width: 1200px;
+    margin:0 auto;
+}
+.header{
+    height: 101px;
+    background-color: #f3f5f7;
+}
+.logo{
+    width: 229px;
+    background-color:#f3f5f7;
+    height: 100%;
+    float:left;
+}
+.logo img{
+    margin-top: 30px;
+}
+.nav{
+    width: 283px;
+    height: 100%;
+    float:left;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    
+    
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    margin-top:43px;
+    margin-right: 23px;
+    font-size: 18px;
+    color: #050505;
+    padding:0 10px;
+    padding-bottom: 11px;
+    
+}
+.nav a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.search{
+    width: 507px;
+    height: 100%;
+    float: left;
+}
+.personal{
+    width: 181px;
+    height: 100%;
+    float: left;
+    line-height: 101px;
+    color: #797979;
+}
+.personal img{
+    margin-left: 30px;
+}
+.search input{
+    float: right;
+    width: 345px;
+    height: 38px;
+    border:1px solid #00a4ff;
+    margin-top: 30px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.search button{
+    float: right;
+    width: 50px;
+    height: 40px;
+    margin-top: 30px;
+    border:1px solid #00a4ff;
+    background-color: #00a4ff;
+    background-image: url(images/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    height: 420px;
+    background-color: #1c026c;
+}
+.banner .w{
+    background-image: url(images/4.png);
+    background-repeat:round;
+    background-position: top center;
+    background-color: inherit;
+    height: 100%;
+}
+.banner .subnav{
+    width: 190px;
+    height: 100%;
+    background-color: rgba(7.8, 0.8, 29.4, 0.5);
+    float: left;
+
+}
+.subnav li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    padding:0 20px;
+}
+.subnav a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: block;
+
+
+}
+.subnav a:hover{
+    color: #00b4ff;
+}
+.subnav span{
+    float: right;
+}
+.course{
+    margin-top: 50px;
+    width: 230px;
+    height: 300px;
+    background-color: white;
+    float: right;
+}
+.h{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #9bceea;
+    color: white;
+}
+.course_body{
+    padding-top: 8px;
+}
+.course_body li{
+    list-style: none;
+    width: 192px;
+    height: 48px;
+    border-bottom: 1px solid #f6f6f6;
+    padding-top: 14px;
+    margin:0 18px;
+}
+.course_body h4{
+    font-size: 16px;
+    font-weight: normal;
+}
+.course_body p{
+    font-size: 12px;
+    color:#bdbdbd;
+}
+.course_body a{
+    display: block;
+    margin:0 14px;
+    border: 1px solid #3fbbff;
+    width: 200px;
+    height: 40px;
+    color: #3fbbff;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
