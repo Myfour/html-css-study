@@ -11,17 +11,19 @@
             width: 200px;
             height: 200px;
         }
-
+        
         #one {
             background-color: pink;
             margin-bottom: 50px;
         }
-
+        
         #two {
             background-color: hotpink;
             margin-top: 80px;
         }
-
+        /* 当两个上下连续的盒子有margin的叠加时会出现外边距合并问题，
+        并且只在垂直方向且一上一下同时设置margin的情况下会外边距合并为较大的一个值 */
+        
         #three {
             background-color: green;
             width: 300px;
@@ -31,11 +33,12 @@
             /* padding-top: 1px; */
             /* border: 1px solid transparent; */
         }
-
+        
         #four {
             background-color: #834;
-            margin-top: 50px;
+            margin-top: 20px;
         }
+        /* 当两个盒子嵌套时在垂直方向的margin就会出现坍塌问题 */
     </style>
 </head>
 
