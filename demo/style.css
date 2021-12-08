@@ -266,9 +266,16 @@ body {
     background-color: white;
     margin-right: 5px;
     margin-bottom: 14px;
+    position: relative;
 }
 
-.box-bd li img {
+.small {
+    position: absolute;
+    top: 2px;
+    right: -4px;
+}
+
+.box-bd li .co_image {
     width: 100%;
 }
 
@@ -365,4 +372,36 @@ body {
 
 .clearfix {
     *zoom: 1;
+}
+
+.adv {
+    width: 180px;
+    height: 396px;
+    background-color: white;
+    position: fixed;
+    right: 50%;
+    top: 30%;
+    margin-right: 625px;
+    padding-top: 27px;
+    padding-bottom: 2px;
+}
+
+.adv li {
+    list-style: none;
+    height: 36px;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.adv li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    line-height: 12px;
+}
+
+.adv li a:hover {
+    color: cornflowerblue;
 }
