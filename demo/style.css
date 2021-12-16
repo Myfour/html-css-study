@@ -405,3 +405,7 @@ body {
 .adv li a:hover {
     color: cornflowerblue;
 }
+
+.personal img {
+    vertical-align: middle;
+}

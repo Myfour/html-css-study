@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            /* border-top: 10px solid orangered; */
+            border-left: 10px solid tomato;
+        }
+        
+        .box2 {
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            /* border-top: 10px solid orangered; */
+            border-right: 20px solid lightseagreen;
+        }
+        
+        .jd {
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            position: relative;
+            border-radius: 10px;
+        }
+        
+        .jd-tri {
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-left: 20px solid crimson;
+            position: absolute;
+            right: -40px;
+            bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <hr>
+    <div class="jd">
+        <div class="jd-tri"></div>
+    </div>
+</body>
+
+</html>
