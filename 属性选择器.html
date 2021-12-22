@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 选择input标签属性有value的标签 */
+        input[value] {
+            color: burlywood;
+        }
+
+        /* 选择属性type=某个值的input标签 */
+        input[type="password"] {
+            color: tomato;
+        }
+
+        /* 选择属性名开头为xxxx的标签 */
+        p[id^="icon"] {
+            color: violet;
+        }
+
+        /* 选择属性名以xxx结尾的标签 */
+        p[id$="con"] {
+            color: yellowgreen
+        }
+        /* 选择属性名中带有xxx的标签 */
+        p[id*="2"] {
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" name="" id="">
+    <input type="text" value="100~!">
+    <input type="password">
+    <p id="icon1">icon1</p>
+    <p id="icon2">icon2</p>
+    <p id="icon-con">iconcon</p>
+</body>
+
+</html>
