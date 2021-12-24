@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:nth-child(even) {
+            color: gold;
+        }
+
+        ul li:nth-child(odd) {
+            color: lightseagreen
+        }
+
+        /* 这里传入的公式只能是n，n是从0开始累加的数 */
+        /* 2n表示偶数，2n+1奇数 ，n+5为从第5个开始,-n+7为前7个*/
+
+        ol li:nth-child(-n+7) {
+            color: crimson;
+        }
+
+        /* 选择子元素p中第一个标签 */
+        section p:first-of-type {
+            color: yellow;
+        }
+        /* 该标签是从父元素中找到所有子标签，然后需要第一个标签与其标签名对应才有用 */
+        section div:nth-child(1) {
+            color: red;
+        }
+        /* 取div子标签中第2个 */
+        section div:nth-of-type(2) {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>我是第1个</li>
+        <li>我是第2个</li>
+        <li>我是第3个</li>
+        <li>我是第4个</li>
+        <li>我是第5个</li>
+        <li>我是第6个</li>
+        <li>我是第7个</li>
+        <li>我是第8个</li>
+        <li>我是第9个</li>
+        <li>我是第10个</li>
+    </ul>
+    <ol>
+        <li>我是第1个</li>
+        <li>我是第2个</li>
+        <li>我是第3个</li>
+        <li>我是第4个</li>
+        <li>我是第5个</li>
+        <li>我是第6个</li>
+        <li>我是第7个</li>
+        <li>我是第8个</li>
+        <li>我是第9个</li>
+        <li>我是第10个</li>
+    </ol>
+    <section>
+        <p>@</p>
+        <div>#</div>
+        <div>#</div>
+    </section>
+</body>
+
+</html>
