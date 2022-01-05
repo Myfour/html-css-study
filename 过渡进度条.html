@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .out {
+            width: 100px;
+            height: 20px;
+            border-radius: 20px;
+            border: 1px solid crimson;
+            padding: 1px;
+        }
+
+        .in {
+            width: 50%;
+            height: 100%;
+            border-radius: 20px;
+            background-color: rgb(247, 80, 113);
+            transition: all 1s;
+        }
+
+        .out:hover .in {
+            width: 100%;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="out">
+        <div class="in"></div>
+    </div>
+</body>
+
+</html>
