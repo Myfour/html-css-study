@@ -55,3 +55,115 @@
     font-style: normal;
     margin-left: 10px;
 }
+
+.header {
+    height: 105px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    height: 57px;
+    width: 171px;
+
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 57px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    /* 隐藏a标签的文字 */
+    font-size: 0px;
+}
+
+.search {
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+    position: absolute;
+    top: 25px;
+    left: 345px;
+}
+
+.search input {
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+    float: left;
+}
+
+.search button {
+    height: 32px;
+    width: 80px;
+    background-color: #b1191a;
+    float: left;
+    font-size: 16px;
+    color: white;
+}
+
+.hotwords {
+    position: absolute;
+    top: 69px;
+    left: 347px;
+
+}
+
+.hotwords a {
+    margin: 0 11px;
+}
+
+.shopcar {
+    width: 140px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    top: 25px;
+    right: 64px;
+    position: absolute;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.shopcar a {
+    display: block;
+}
+
+.shopcar a::before {
+    content: '\f0179';
+    font-family: "iconfont" !important;
+    margin-right: 7px;
+    color: #b1191a;
+    font-size: 16px;
+}
+
+.shopcar a::after {
+    content: '\e666';
+    font-family: "iconfont" !important;
+    margin-left: 15px;
+}
+
+.count {
+    position: absolute;
+    top: -4px;
+    left: 105px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #e60012;
+    color: white;
+    padding: 0 5px;
+
+}
+
+.nav {
+    border-bottom: 2px solid #b1191a;
+    height: 47px;
+}
+
+.nav .dropdown, .nav .navitem {
+    float: left
+}

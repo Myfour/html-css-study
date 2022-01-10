@@ -6,88 +6,67 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "26085566",
-      "name": "同步",
-      "font_class": "tongbu",
-      "unicode": "e605",
-      "unicode_decimal": 58885
+      "icon_id": "1306",
+      "name": "购物车空",
+      "font_class": "gouwuchekong",
+      "unicode": "f0179",
+      "unicode_decimal": 983417
     },
     {
-      "icon_id": "26085615",
-      "name": "搜索",
-      "font_class": "sousuo",
-      "unicode": "e60a",
-      "unicode_decimal": 58890
+      "icon_id": "15838424",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e664",
+      "unicode_decimal": 58980
     },
     {
-      "icon_id": "26085616",
-      "name": "标签关闭",
-      "font_class": "biaoqianguanbi",
-      "unicode": "e60b",
-      "unicode_decimal": 58891
+      "icon_id": "15838429",
+      "name": "arrow-down",
+      "font_class": "arrow-down",
+      "unicode": "e665",
+      "unicode_decimal": 58981
     },
     {
-      "icon_id": "26085639",
-      "name": "下拉按钮（绿色）",
-      "font_class": "a-xialaanniulvse",
-      "unicode": "e60e",
-      "unicode_decimal": 58894
+      "icon_id": "15838431",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e666",
+      "unicode_decimal": 58982
     },
     {
-      "icon_id": "26085745",
-      "name": "勾",
-      "font_class": "gou",
-      "unicode": "e610",
-      "unicode_decimal": 58896
+      "icon_id": "15838433",
+      "name": "bottom",
+      "font_class": "bottom",
+      "unicode": "e667",
+      "unicode_decimal": 58983
     },
     {
-      "icon_id": "26419725",
-      "name": "播放",
-      "font_class": "bofang",
-      "unicode": "ffe2",
-      "unicode_decimal": 65506
+      "icon_id": "15838436",
+      "name": "arrow-double-left",
+      "font_class": "arrow-double-left",
+      "unicode": "e668",
+      "unicode_decimal": 58984
     },
     {
-      "icon_id": "26419833",
-      "name": "点赞",
-      "font_class": "dianzan",
-      "unicode": "10002",
-      "unicode_decimal": 65538
+      "icon_id": "15838438",
+      "name": "arrow-double-right",
+      "font_class": "arrow-double-right",
+      "unicode": "e669",
+      "unicode_decimal": 58985
     },
     {
-      "icon_id": "26419844",
-      "name": "文件夹",
-      "font_class": "wenjianjia",
-      "unicode": "10005",
-      "unicode_decimal": 65541
+      "icon_id": "15838444",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
     },
     {
-      "icon_id": "26419928",
-      "name": "火热",
-      "font_class": "huore",
-      "unicode": "1001d",
-      "unicode_decimal": 65565
-    },
-    {
-      "icon_id": "26419941",
-      "name": "导航",
-      "font_class": "daohang",
-      "unicode": "10021",
-      "unicode_decimal": 65569
-    },
-    {
-      "icon_id": "26420049",
-      "name": "上一曲",
-      "font_class": "shangyiqu",
-      "unicode": "1002c",
-      "unicode_decimal": 65580
-    },
-    {
-      "icon_id": "26420050",
-      "name": "下一曲",
-      "font_class": "xiayiqu",
-      "unicode": "1002d",
-      "unicode_decimal": 65581
+      "icon_id": "15838530",
+      "name": "select",
+      "font_class": "select",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
     }
   ]
 }
