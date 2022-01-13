@@ -2,6 +2,7 @@
     width: 980px;
     height: 455px;
     margin-left: 220px;
+    margin-top: 10px;
 }
 
 .focus {
@@ -14,4 +15,96 @@
     float: right;
     width: 250px;
     height: 100%;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news dt {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    line-height: 33px;
+    margin-bottom: 6px;
+}
+
+.news dt h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news dt p {
+    float: right;
+    font-size: 11px;
+
+}
+
+.news dt p::after {
+    content: '\e666';
+    font-family: 'iconfont';
+    font-size: 7px;
+    margin-left: 5px;
+}
+
+.news dd h6 {
+    float: left;
+}
+
+.news dd {
+    padding: 0 15px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+
+}
+
+.lifeservice li {
+    width: 62.5px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    float: left;
+    position: relative;
+}
+
+.lifeservice li img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.lifeservice li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.lifeservice li a i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    background-position: -17px -14px;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
 }
